@@ -8,6 +8,9 @@ function Provider({ children }) {
   const [loading, setLoading] = useState(true);
   const [name, setName] = useState('');
   const [planetIncludes, setPlanetIncludes] = useState([]);
+  const [column, setColumn] = useState('population');
+  const [comparison, setComparison] = useState('maior que');
+  const [value, setValue] = useState(0);
   const contextValue = {
     loading,
     setLoading,
@@ -19,6 +22,12 @@ function Provider({ children }) {
     setName,
     planetIncludes,
     setPlanetIncludes,
+    column,
+    comparison,
+    value,
+    setColumn,
+    setComparison,
+    setValue,
   };
 
   useEffect(() => {
