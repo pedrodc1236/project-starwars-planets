@@ -11,6 +11,7 @@ function Provider({ children }) {
   const [column, setColumn] = useState('population');
   const [comparison, setComparison] = useState('maior que');
   const [value, setValue] = useState(0);
+  const [array, setArray] = useState([]);
   const contextValue = {
     loading,
     setLoading,
@@ -28,6 +29,19 @@ function Provider({ children }) {
     setColumn,
     setComparison,
     setValue,
+    array,
+    setArray,
+  };
+
+  const arrayColumns = () => {
+    const arrayOptions = [
+      'population',
+      'orbital_period',
+      'diameter',
+      'rotation_period',
+      'surface_water',
+    ];
+    setArray(arrayOptions);
   };
 
   useEffect(() => {
@@ -38,6 +52,7 @@ function Provider({ children }) {
       setLoading(false);
     }
     api();
+    arrayColumns();
   }, []);
 
   return (
