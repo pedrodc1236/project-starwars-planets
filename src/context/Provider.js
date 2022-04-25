@@ -8,7 +8,7 @@ function Provider({ children }) {
   const [loading, setLoading] = useState(true);
   const [name, setName] = useState('');
   const [planetIncludes, setPlanetIncludes] = useState([]);
-  const [column, setColumn] = useState('population');
+  const [column, setColumn] = useState('');
   const [comparison, setComparison] = useState('maior que');
   const [value, setValue] = useState(0);
   const [array, setArray] = useState([]);
@@ -54,6 +54,10 @@ function Provider({ children }) {
     api();
     arrayColumns();
   }, []);
+
+  useEffect(() => {
+    setColumn(array[0]);
+  }, [array]);
 
   return (
     <AppContext.Provider value={ contextValue }>
