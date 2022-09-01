@@ -1,4 +1,5 @@
-<h1 align="center"> Projeto Starwars Planets Search em context api e hooks 💻 </h1>
+<h1 align="center"> Projeto Starwars Planets Search </h1>
+<h2 align="center"> Context api e Hooks </h2>
 
  <div align="center">
  
