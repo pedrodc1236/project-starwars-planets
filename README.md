@@ -1,19 +1,29 @@
-Projeto Starwars Planets Search em context api e hooks!
+<h1 align="center"> Projeto Starwars Planets Search em context api e hooks 💻 </h1>
+
+ <div align="center">
+ 
+ ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+ ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ 
+</div>
+
+<h2 align="left"> Sobre: </h2>
 
 Nesse projeto foi desenvolvido uma lista com filtros de planetas do universo Star Wars usando Context API e Hooks para controlar os estados globais.
 
-Habilidades aprimoradas:
-• Utilizar a Context API do React para gerenciar estado.
-• Utilizar o React Hook useState;
-• Utilizar o React Hook useContext;
-• Utilizar o React Hook useEffect;
-• Criar React Hooks customizados.
+## Habilidades aprimoradas:
+- Utilizar a Context API do React para gerenciar estado.
+- Utilizar o React Hook useState;
+- Utilizar o React Hook useContext;
+- Utilizar o React Hook useEffect;
+- Criar React Hooks customizados.
 
-Tecnologias utilizadas:
-• React
-• Context API
-• JavaScript
-• HTML5
-• React Hooks
+## Tecnologias utilizadas:
+- React
+- Context API
+- JavaScript
+- HTML5
+- React Hooks
 
 
