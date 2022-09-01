@@ -23,7 +23,6 @@ Nesse projeto foi desenvolvido uma lista com filtros de planetas do universo Sta
 - React
 - Context API
 - JavaScript
-- HTML5
 - React Hooks
 
 
